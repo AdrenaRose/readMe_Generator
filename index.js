@@ -59,10 +59,15 @@ inquirer.prompt([
     message: "Enter your email address.",
     name: "email",
   },
-]);
+])
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+.then ((answers) => {
+  console.log(answers);
+  fs.writeFile('readMe.md', JSON.stringify(answers),(err) => {
+      err ? console.log(err) : console.log("Success")
+    });
+});
 
 // TODO: Create a function to initialize app
 function init() {}
