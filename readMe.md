@@ -1,1 +1,0 @@
-{"title":"Title","description":"Description","installation":"Some instructions","usage":"Some usage info","license":"None","contributions":"Some guideliens","username":"AdrenaRose","email":"someone@gmail.com"}
